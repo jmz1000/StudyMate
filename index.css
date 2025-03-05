@@ -1,0 +1,48 @@
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: rgb(76, 49, 130);
+  padding: 2em;
+  height: 3em;
+  border: 0.3em solid rgb(154, 133, 19);
+}
+
+nav {
+  display: flex;
+  gap: 4em;
+  color: #ffffff;
+}
+
+#home {
+  padding-left: 33em;
+}
+
+#logo-img {
+  width: 15em;
+}
+
+/* logo-section */
+
+#login-section {
+  margin: auto;
+}
+
+#login-form {
+  background-color: rgb(75, 46, 131, 28%);
+  margin: auto;
+  margin: 8em auto;
+  padding: 3em 2em;
+  text-align: center;
+  width: 40%;
+  border: 0.2em solid rgba(48, 26, 93, 0.28);
+  border-radius: 2em;
+}
+
+#login-form img {
+  width: 10em;
+}
