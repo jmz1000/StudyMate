@@ -1,44 +1,119 @@
 <!DOCTYPE html>
-
-<html lang="eng">
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <title>StudyMate</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
-  </head>
+</head>
 
-  <body>
+<body>
+
+    <!-- Header Navigation -->
     <header>
-      <nav id="nav-bar">
-        <img id="logo-img" src="img/studymate-logo.png" alt="logo">
-        <a id="home">
-          <h1>Home</h1>
-        </a>
-        <a id="contact">
-          <h1>Contact</h1>
-        </a>
-        <a id="about">
-          <h1>About Us</h1>
-        </a>
-        <a id="login">
-          <h1>Login</h1>
-        </a>
-      </nav>
+        <nav id="nav-bar">
+            <img id="logo-img" src="img/studymate-logo.png" alt="logo">
+            <a id="home"><h1>Home</h1></a>
+            <a id="contact"><h1>Contact</h1></a>
+            <a id="about"><h1>About Us</h1></a>
+            <a id="login"><h1>Login</h1></a>
+        </nav>
     </header>
 
+    <!-- Login Section -->
     <section id="login-section">
-      <div id="login-form">
-        <img id="uw-logo" src="img/uw-logo.png" alt="uw-logo">
-        <h2>Sign in to start using StudyMate</h2>
-        <h2>Already have an UW NetID?</h2>
-        <a class="sign-in"><img src="img/login-btn.png" alt="uw-login"></a>
-        <button class="sign-in">Sign in</button>
-        <button class="sign-in">Sign up</button>
-      </div>
+        <div id="login-form">
+            <img id="uw-logo" src="img/uw-logo.png" alt="uw-logo">
+            <h2>Sign in to start using StudyMate</h2>
+            <h2>Already have a UW NetID?</h2>
+            <a class="sign-in"><img src="img/login-btn.png" alt="uw-login"></a>
+            <button class="sign-in">Sign in</button>
+            <button class="sign-in">Sign up</button>
+        </div>
     </section>
-  </body>
-  <footer>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard">
+        <aside class="sidebar">
+            <h2>StudyMate <span class="highlight">W</span></h2>
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#matching">Matching</a></li>
+                <li><a href="#messages">Messages</a></li>
+                <li><a href="#study-groups">Study Groups</a></li>
+                <li><a href="#faq">Help & FAQ</a></li>
+                <li><a href="#settings">Settings</a></li>
+                <li><a href="#logout">Log Out</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-content">
+            <div class="header">
+                <h2>Find Your StudyMates</h2>
+                <button class="btn-secondary">Search for Students</button>
+            </div>
+
+            <!-- StudyMates Section -->
+            <div class="study-mates">
+                <h3>StudyMates</h3>
+                <div class="profiles">
+                    <div class="profile">
+                        <img src="https://via.placeholder.com/60" alt="User">
+                        <p><strong>Livia</strong></p>
+                        <p>Junior, INFO</p>
+                    </div>
+                    <div class="profile">
+                        <img src="https://via.placeholder.com/60" alt="User">
+                        <p><strong>Randy</strong></p>
+                        <p>Senior, INFO</p>
+                    </div>
+                    <div class="profile">
+                        <img src="https://via.placeholder.com/60" alt="User">
+                        <p><strong>Mike</strong></p>
+                        <p>Junior, INFO</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- StudyGroups Section -->
+            <div class="study-groups">
+                <h3>StudyGroups</h3>
+                <div class="profiles">
+                    <div class="profile">
+                        <img src="https://via.placeholder.com/60" alt="Group">
+                        <p>CSE 121</p>
+                    </div>
+                    <div class="profile">
+                        <img src="https://via.placeholder.com/60" alt="Group">
+                        <p>Statistics Wizards</p>
+                    </div>
+                    <div class="profile">
+                        <img src="https://via.placeholder.com/60" alt="Group">
+                        <p>Super Students</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="profile-container">
+            <h2>Your Profile</h2>
+            <img class="profile-img" src="https://via.placeholder.com/100" alt="Profile Picture">
+            <p><strong>Name:</strong> Moni Roy</p>
+            <p><strong>Major:</strong> Information Science</p>
+            <p><strong>Year:</strong> Senior</p>
+            <button class="edit-btn">Edit Profile</button>
+        </div>
+    </section>
+
+</body>
+
+<!-- Footer -->
+<footer>
     <h3>Footer</h3>
-  </footer>
+</footer>
+
 </html>
